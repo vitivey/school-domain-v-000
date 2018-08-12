@@ -23,7 +23,7 @@ attr_reader :school_name
 
   def sort
     @roster.collect do |grade, student_list|
-      {grade: student_list.sort}
+      @roster[grade]=student_list.sort}
     end
   end
 end
