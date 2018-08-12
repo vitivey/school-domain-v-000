@@ -16,4 +16,8 @@ attr_reader :school_name
     @roster[grade] = [] #if !roster.keys.include?(student_grade)
     @roster[grade] << student_name
   end
+
+  def grade(grade)
+    @roster[grade]
+  end
 end
