@@ -22,6 +22,6 @@ attr_reader :school_name
   end
 
   def sort
-    @roster.values.sort
+    @roster.sort_by {|grade, name| name}
   end
 end
