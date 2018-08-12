@@ -22,7 +22,7 @@ attr_reader :school_name
   end
 
   def sort
-    @roster.values.sort!
+    @roster.values.sort
     @roster
   end
 end
