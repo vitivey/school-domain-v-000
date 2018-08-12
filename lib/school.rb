@@ -20,4 +20,5 @@ attr_reader :school_name
   def grade(grade)
     @roster[grade]
   end
+  
 end
