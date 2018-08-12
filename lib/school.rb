@@ -25,5 +25,6 @@ attr_reader :school_name
     @roster.collect do |grade, student_list|
       @roster[grade]=student_list.sort
     end
+    @roster
   end
 end
