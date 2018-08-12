@@ -22,6 +22,6 @@ attr_reader :school_name
   end
 
   def sort
-    @roster.values.sort.flatten
+    @roster.values.sort
   end
 end
